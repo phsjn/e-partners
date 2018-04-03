@@ -9,4 +9,3 @@ install:
     - npm install -g polymer-cli
 after_success:
     - firebase deploy --token $FIREBASE_TOKEN
-    
